@@ -44,7 +44,7 @@ function startApp() {
 // output(getNumber("1st"));
 function getNumber(figure) {
     let displayStr = INFO_STR_PRE_NUM + figure + INFO_STR_POST_NUM;
-    let inputStr = prompt(displayStr) 
+    let inputStr = prompt(displayStr);
     let num = parseInt(inputStr);
 
    
